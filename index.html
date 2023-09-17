@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Koolio | Frontend Task</title>
+  </head>
+  <body>
+    <h1 class="heading">Koolio Frontend Task</h1>
+    <div class="main">
+      <div class="lift-buttons">
+        <div class="level-2-btn">
+          <button id="level-2-down-button">
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </div>
+        <div class="level-1-btn">
+          <button id="level-1-up-btn">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+          <button id="level-1-down-btn">
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </div>
+        <div class="level-0-btn">
+          <button id="level-0-up-btn">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+      <div class="levels">
+        <div class="level2" id="level2">
+          <p>Second Floor</p>
+        </div>
+        <div class="level1" id="level1">
+          <p>First Floor</p>
+        </div>
+        <div class="level0" id="level0">
+          <p>Ground Floor</p>
+          <div class="elevator" id="elevator"><center><h4>Elevator</h4></center></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
